@@ -1,6 +1,14 @@
 # Hadoop Practice
 
+> 분산 처리 시스템
+>> 성능
+>>
+>> scale out
+>>
 > HDFS(하둡파일시스템) + MapReduce = Hadoop
+>
+> 하나의 driver에 여러 executor가 구동
+
 
 ## HDFS
 
@@ -9,6 +17,7 @@
 > 대용량 파일을 분산된 서버에 저장하고, 저장된 데이터를 빠르게 처리할 수 있게 하는 파일 시스템
 >
 > 저사양의 서버를 이용해서 스토리지를 구성할 수 있어 기존의 대용량 파일 시스템(NAS, DAS, SAN 등)에 비해 장점을 가진다.
+
 
 ## MapReduce
 
